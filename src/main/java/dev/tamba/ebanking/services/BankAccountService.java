@@ -25,5 +25,7 @@ public interface BankAccountService {
 
     void deleteCustomer(Long customerId);
 
-   // List<AccountOperationDTO> accountHistory(String accountId);
+    List<CustomerDTO> searchCustomers(String keyword);
+
+    // List<AccountOperationDTO> accountHistory(String accountId);
 }
